@@ -116,6 +116,9 @@ source_set("common") {
 
     deps += [
       "//content/public/common",
+      "//brave/components/resources",
+      "//components/resources",
+      "//third_party/widevine/cdm:buildflags",
     ]
   }
 }
